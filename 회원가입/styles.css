@@ -1,0 +1,135 @@
+/* 기본 스타일 */
+.registration-form {
+  display: none;
+}
+
+/* 다크 모드 스타일 */
+.dark-mode {
+  background-color: #212529;
+  color: #f8f9fa;
+}
+
+/* 테이블 스타일 커스터마이징 */
+.table {
+  margin-top: 1rem;
+}
+
+.table th {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* 페이지네이션 스타일 */
+.pagination {
+  margin-top: 1.5rem;
+}
+
+/* 회원가입 폼 스타일 */
+.card {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.card-header {
+  font-weight: 500;
+}
+
+/* 폼 유효성 검사 스타일 */
+.form-control:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.was-validated .form-control:invalid {
+  border-color: #dc3545;
+}
+
+.was-validated .form-control:valid {
+  border-color: #28a745;
+}
+
+/* 버튼 스타일 */
+.btn-primary {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+  background-color: #0b5ed7;
+  border-color: #0a58ca;
+}
+
+/* 날짜 시간 스타일 */
+#current-datetime {
+  font-size: 0.9rem;
+  color: #6c757d;
+  font-weight: 500;
+}
+
+/* 다크모드에서의 테이블 스타일 */
+[data-bs-theme="dark"] .table {
+  color: #f8f9fa;
+}
+
+[data-bs-theme="dark"] .table th {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* 반응형 스타일 */
+@media (max-width: 768px) {
+  .container {
+    padding: 0.5rem;
+  }
+  
+  #current-datetime {
+    display: none;
+  }
+  
+  .col-3 {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* 알림 메시지 스타일 */
+.alert {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* 반응형 스타일 */
+@media (max-width: 768px) {
+  .container {
+    padding: 0.5rem;
+  }
+  
+  #current-datetime {
+    display: none;
+  }
+  
+  .col-3 {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* 알림 메시지 스타일 */
+.alert {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
